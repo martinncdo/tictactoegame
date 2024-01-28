@@ -158,7 +158,7 @@ export default function Game() {
               <div className='option-game'>Elige el modo de juego</div>
               <div className='container-btns'>
                 <button className="btn" onClick={() => changeGameMode(true)}>Multijugador 1 vs 1</button>
-                <button className="btn" onClick={() => changeGameMode(false)}>Único jugador 1 vs PC</button>
+                <button className="btn" onClick={() => changeGameMode(false)}>Único jugador vs PC</button>
               </div>
             </div>
           )}
