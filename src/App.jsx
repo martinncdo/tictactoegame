@@ -8,7 +8,7 @@ function Square({ onSquareClick, value = null }) {
   );
 }
 
-function Board({ xIsNext, squares, onPlay, gameMode, count1, count2 }) {
+function Board({ xIsNext, squares, onPlay, gameMode }) {
   const [block, setBlock] = useState(false);
   
   function handleClick(i) {
